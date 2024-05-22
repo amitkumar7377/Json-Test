@@ -1,0 +1,16 @@
+trigger:
+  - main
+
+variables:
+  testUnitName: '192.168.1.8'   # The name or IP address of the test unit
+  test_case_file_path: "C:\Users\cmit\Desktop\azurepipelines\jsontest\test_cases.json"
+
+stages:
+  - stage: Testing
+    jobs:
+      - job: TestCases
+        steps:
+          - script: |
+              echo "Parsing test cases from JSON file..."
+              python parse_test_cases.py
+            displayName: "Parse Test Cases"
