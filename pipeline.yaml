@@ -3,8 +3,8 @@ trigger:
 
 variables:
   testUnitName: '192.168.1.8'   # The name or IP address of the test unit
-  test_case_file_path: "C:\Users\cmit\Desktop\azurepipelines\jsontest\test_cases.json"
-
+steps:
+- script: echo $(Build.SourcesDirectory)/C:/Users/cmit/Desktop/azurepipelines/jsontest/test_cases.json
 stages:
   - stage: Testing
     jobs:
