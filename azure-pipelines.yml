@@ -2,7 +2,7 @@ trigger:
   - main
 
 variables:
-  testUnitName: '192.168.2.165'   # The name or IP address of the test unit
+  testUnitName: '192.168.1.121'   # The name or IP address of the test unit
 stages:
   - stage: Testing
     jobs:
