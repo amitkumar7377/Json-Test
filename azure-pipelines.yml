@@ -7,6 +7,6 @@ pool:
 steps:
 - script: |
     echo "Reading test cases from JSON file..."
-    cat test_cases.json
+    type test_cases.json
   displayName: 'Print Test Cases'
   continueOnError: false
