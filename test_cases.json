@@ -1,19 +1,9 @@
 {
   "testCases": [
     {
-      "id": 1,
-      "name": "Test case 1",
-      "description": "This is the first test case"
-    },
-    {
-      "id": 2,
-      "name": "Test case 2",
-      "description": "This is the second test case"
-    },
-    {
-      "id": 3,
-      "name": "Test case 3",
-      "description": "This is the third test case"
+    "SFT\\HSC\\5_3_ManualConfigurationOfHpSystemGuard"
     }
-  ]
+   ]
 }
+
+
