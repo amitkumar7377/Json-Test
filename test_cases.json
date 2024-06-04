@@ -1,12 +1,19 @@
-[
+{
+  "testCases": [
     {
-        "name": "Test Case 1",
-        "input": "input_data_1",
-        "expected_output": "expected_output_1"
+      "id": 1,
+      "name": "Test case 1",
+      "description": "This is the first test case"
     },
     {
-        "name": "Test Case 2",
-        "input": "input_data_2",
-        "expected_output": "expected_output_2"
+      "id": 2,
+      "name": "Test case 2",
+      "description": "This is the second test case"
+    },
+    {
+      "id": 3,
+      "name": "Test case 3",
+      "description": "This is the third test case"
     }
-]
+  ]
+}
